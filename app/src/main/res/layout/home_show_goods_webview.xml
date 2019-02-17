@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:text="商品详情" />
+
+    <View
+        android:id="@+id/home_show_up_goods_view"
+        android:layout_width="36dp"
+        android:layout_height="3dp"
+        android:background="#f2597c"></View>
+
+    <WebView
+        android:id="@+id/home_show_goods_webview_webview"
+        android:layout_width="597dp"
+        android:layout_height="wrap_content"></WebView>
+
+
+</LinearLayout>
